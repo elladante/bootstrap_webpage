@@ -1,0 +1,117 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: pink;
+}
+
+nav ul li a {
+    color: pink;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: whitesmoke;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: pink;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 50%;
+}
+
+#intro .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#intro .img-col {
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+#intro img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#intro .card {
+    background-color: pink;
+    border: 0;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#intro .icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#facts {
+    background-color: whitesmoke;
+}
+
+#facts img {
+    max-width: 70%;
+    width: 70%;
+}
+
+#facts h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: pink;
+    text-align: left;
+}
+
+#outro {
+    margin-bottom: 50px;
+}
+
+#outro .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#outro .img-col {
+    justify-content: flex-end;
+}
+
+#outro img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+}
